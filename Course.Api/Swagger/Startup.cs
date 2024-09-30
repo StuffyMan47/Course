@@ -61,7 +61,7 @@ public static class Startup
                 }
             });
 
-            // setup.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Course.Api.xml"));
+            setup.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Course.Api.xml"));
         });
 
         return services;
